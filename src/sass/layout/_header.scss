@@ -1,0 +1,58 @@
+.nav {
+    display: none;
+}
+
+.header {
+    background-color: $color-background;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 34px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 4.2rem;
+    font-weight: 900;
+    line-height: 4.2rem;
+    font-family: sans-serif;
+}
+
+.logo-img {
+    margin: 24px;
+}
+
+.work-day {
+    padding: 0;
+    margin: 0;
+    li {
+        margin-right: 6px;
+        display: inline-block;
+        content: "";
+        width: 12px;
+        height: 12px;
+        background-color: green;
+        border: 1px solid;
+    }
+}
+
+.contact {
+    font-size: 24px;
+    padding-top: 30px;
+    a {
+        text-decoration: none;
+    }
+    p {
+       margin: 6px 0;
+    }
+}
+
+
+.phone {
+    width: 34px;
+    height: auto;
+    vertical-align: bottom;
+}
